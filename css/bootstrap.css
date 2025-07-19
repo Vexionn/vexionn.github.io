@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #121212;
 }
 
 article,
@@ -53,7 +54,7 @@ pre {
 }
 
 a {
-  background-color: #121212;
+  background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
@@ -158,6 +159,7 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -214,6 +216,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -496,6 +499,7 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
   -webkit-appearance: listbox;
+  appearance: listbox; 
 }
 
 textarea {
@@ -520,6 +524,7 @@ legend {
 
 input[type="search"] {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 output {
@@ -3725,6 +3730,7 @@ tbody.collapse.show {
   border-radius: 0.25rem;
   -moz-appearance: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .custom-select:focus {
@@ -5401,6 +5407,7 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;;
 }
 
 .modal-open {
